@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Base Institute</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              Poppins: ["Poppins", "sans-serif"],
+              serif: ["Merriweather", "serif"],
+              Open: ["Open Sans", "sans-serif"],
+            },
+            fontWeight: {
+              thin: "300",
+              medium: "400",
+              regular: "500",
+              bold: "600",
+              bolder: "700",
+              black: "800",
+            },
+            extend: {
+              spacing: {
+                128: "32rem",
+                144: "36rem",
+              },
+              borderRadius: {
+                sm: "10px",
+                md: "20px",
+                lg: "30px",
+                xl: "50px",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="w-full h-15px bg-blue-500 text-center p-3">
+      <h1 class="text-2xl font-medium tracking-widest">ABC Institute</h1>
+    </header>
+    <section
+      class="flex m-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+    >
+      <div class="flex flex-col items-center bg-gray-100 p-10">
+        <div class="top">
+          <div class="text-container flex flex-col text-center gap-2">
+            <h1 class="font-Open font-bold text-4xl text-blue-500">LOGIN</h1>
+            <p class="text-gray-500 font-bold text-lg">Hi, Welcome</p>
+          </div>
+          <div class="p-3">
+            <button
+              class="flex px-5 py-2 bg-gray-300 rounded-xl gap-2"
+              title="logo"
+            >
+              <img
+                src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
+                alt=""
+              />
+              <h1 class="font-Open font-normal">Login with Google</h1>
+            </button>
+          </div>
+        </div>
+        <div class="py-3 w-full">
+          <div
+            class="bg-gray-300 flex w-full h-1 text-lg text-gray-400 text-center z-1"
+          ></div>
+        </div>
+        <form action="" class="flex flex-col gap-3">
+          <div class="flex flex-col w-96 gap-1">
+            <label
+              for="email"
+              class="font-Open text-blue-500 font-medium text-lg"
+              >Email</label
+            >
+            <input
+              class="py-3 px-5 w-96 min-w-full"
+              type="email"
+              placeholder="E.g. johndoe@gmail.com"
+              required
+              autocomplete="none"
+            />
+          </div>
+          <div class="flex flex-col w-96">
+            <label
+              for="password"
+              class="font-Open text-blue-500 font-medium text-lg"
+              >Password</label
+            >
+            <input
+              class="py-3 px-5 w-96 min-w-full"
+              type="password"
+              placeholder="************"
+              required
+              autocomplete="none"
+            />
+          </div>
+        </form>
+        <div class="px-1 py-5 w-96 flex justify-between">
+          <div class="">
+            <input
+              aria-label="Remember Me"
+              type="checkbox"
+              autocomplete="false"
+            />
+            <label for="checkbox">Remember Me</label>
+          </div>
+          <div class="">
+            <a class="text-blue-500 accent-pink-500" href="/forget-password"
+              >Forget Password?</a
+            >
+          </div>
+        </div>
+        <button
+          class="bg-blue-500 py-2 w-full font-Open font-bold text-lg text-gray-200 hover:bg-blue-700 active:bg-blue-700 rounded-md"
+        >
+          Login
+        </button>
+        <div class="p-5">
+          <h1>
+            Not register yet?
+            <a class="text-blue-500 after:content-['↗']" href="signUp.html"
+              >Create an account
+            </a>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <footer class="p-1 fixed bottom-0 w-full bg-blue-500">
+      <div class="flex justify-around items-center">
+        <div class="">
+          <div class="divide-x-2 divide-gray-400">
+            <a class="text-gray-200 font-Open font-medium text-md p-2" href=""
+              >Help</a
+            >
+            <a class="text-gray-200 font-Open font-medium text-md p-2" href=""
+              >Contact</a
+            >
+            <a class="text-gray-200 font-Open font-medium text-md p-2" href=""
+              >Support</a
+            >
+            <a class="text-gray-200 font-Open font-medium text-md p-2" href=""
+              >Jobs</a
+            >
+          </div>
+        </div>
+        <div>
+          <p class="font-Open font-medium text-md p-1 text-gray-200">
+            &copy; 2015 ABC Institute, 165/B Main Street, Colombo 08.
+          </p>
+        </div>
+        <div class="flex gap-3">
+          <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 56.693 56.693"
+            height="30px"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 56.693 56.693"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="white"
+          >
+            <path
+              d="M28.347,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.625-11.023,24.625-24.623  C52.972,16.184,41.946,5.157,28.347,5.157z M34.864,29.679h-4.264c0,6.814,0,15.207,0,15.207h-6.32c0,0,0-8.307,0-15.207h-3.006  V24.31h3.006v-3.479c0-2.49,1.182-6.377,6.379-6.377l4.68,0.018v5.215c0,0-2.846,0-3.398,0c-0.555,0-1.34,0.277-1.34,1.461v3.163  h4.818L34.864,29.679z"
+            />
+          </svg>
+          <?xml version="1.0" ?><svg
+            height="30px"
+            id="Layer_1"
+            style="enable-background: new 0 0 56.693 56.693"
+            version="1.1"
+            viewBox="0 0 56.693 56.693"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="white"
+          >
+            <style type="text/css">
+              .st0 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+              }
+            </style>
+            <g>
+              <path
+                class="st0"
+                d="M46.3802,10.7138c-4.6512-4.6565-10.8365-7.222-17.4266-7.2247c-13.5785,0-24.63,11.0506-24.6353,24.6333   c-0.0019,4.342,1.1325,8.58,3.2884,12.3159l-3.495,12.7657l13.0595-3.4257c3.5982,1.9626,7.6495,2.9971,11.7726,2.9985h0.01   c0.0008,0-0.0006,0,0.0002,0c13.5771,0,24.6293-11.0517,24.635-24.6347C53.5914,21.5595,51.0313,15.3701,46.3802,10.7138z    M28.9537,48.6163h-0.0083c-3.674-0.0014-7.2777-0.9886-10.4215-2.8541l-0.7476-0.4437l-7.7497,2.0328l2.0686-7.5558   l-0.4869-0.7748c-2.0496-3.26-3.1321-7.028-3.1305-10.8969c0.0044-11.2894,9.19-20.474,20.4842-20.474   c5.469,0.0017,10.6101,2.1344,14.476,6.0047c3.8658,3.8703,5.9936,9.0148,5.9914,14.4859   C49.4248,39.4307,40.2395,48.6163,28.9537,48.6163z"
+              />
+              <path
+                class="st0"
+                d="M40.1851,33.281c-0.6155-0.3081-3.6419-1.797-4.2061-2.0026c-0.5642-0.2054-0.9746-0.3081-1.3849,0.3081   c-0.4103,0.6161-1.59,2.0027-1.9491,2.4136c-0.359,0.4106-0.7182,0.4623-1.3336,0.1539c-0.6155-0.3081-2.5989-0.958-4.95-3.0551   c-1.83-1.6323-3.0653-3.6479-3.4245-4.2643c-0.359-0.6161-0.0382-0.9492,0.27-1.2562c0.2769-0.2759,0.6156-0.7189,0.9234-1.0784   c0.3077-0.3593,0.4103-0.6163,0.6155-1.0268c0.2052-0.4109,0.1027-0.7704-0.0513-1.0784   c-0.1539-0.3081-1.3849-3.3379-1.8978-4.5706c-0.4998-1.2001-1.0072-1.0375-1.3851-1.0566   c-0.3585-0.0179-0.7694-0.0216-1.1797-0.0216s-1.0773,0.1541-1.6414,0.7702c-0.5642,0.6163-2.1545,2.1056-2.1545,5.1351   c0,3.0299,2.2057,5.9569,2.5135,6.3676c0.3077,0.411,4.3405,6.6282,10.5153,9.2945c1.4686,0.6343,2.6152,1.013,3.5091,1.2966   c1.4746,0.4686,2.8165,0.4024,3.8771,0.2439c1.1827-0.1767,3.6419-1.489,4.1548-2.9267c0.513-1.438,0.513-2.6706,0.359-2.9272   C41.211,33.7433,40.8006,33.5892,40.1851,33.281z"
+              />
+            </g>
+          </svg>
+          <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 56.693 56.693"
+            height="30px"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 56.693 56.693"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="white"
+          >
+            <g>
+              <path
+                d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"
+              />
+              <path
+                d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"
+              />
+            </g>
+          </svg>
+          <?xml version="1.0" ?><svg
+            height="30px"
+            id="Layer_1"
+            style="enable-background: new 0 0 56.6934 56.6934"
+            version="1.1"
+            viewBox="0 0 56.6934 56.6934"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="white"
+          >
+            <g>
+              <path
+                d="M23.0556,33.4256c1.1217,0,2.0306-0.46,2.7278-1.3771c0.697-0.9176,1.046-2.1266,1.045-3.6263   c0-1.4594-0.3363-2.6339-1.0089-3.5256c-0.6715-0.8921-1.5529-1.3369-2.6415-1.3369c-1.1527,0-2.0787,0.4658-2.778,1.3973   c-0.6991,0.9312-1.0483,2.1509-1.0483,3.6588c0,1.4286,0.3448,2.5866,1.0324,3.4763   C21.0729,32.9808,21.9625,33.4256,23.0556,33.4256z M21.6943,26.2582c0.3546-0.5648,0.8345-0.8481,1.437-0.8481   c0.5854,0,1.0461,0.2747,1.3833,0.8239c0.3376,0.55,0.5057,1.3196,0.5057,2.3083c0,0.9484-0.1745,1.6904-0.5215,2.2249   c-0.3469,0.5339-0.8172,0.8012-1.41,0.8012c-0.5747,0-1.0399-0.2734-1.3944-0.8239c-0.3544-0.5492-0.532-1.2962-0.532-2.2413   C21.1623,27.5721,21.3399,26.8239,21.6943,26.2582z"
+              />
+              <path
+                d="M28.6253,4.165c-13.5996,0-24.625,11.0234-24.625,24.623c0,13.5997,11.0254,24.625,24.625,24.625   c13.5986,0,24.624-11.0253,24.624-24.625C53.2493,15.1883,42.2239,4.165,28.6253,4.165z M32.5206,20.3548h9.5157   c0.3502,0,0.9708,0.4769,0.9708,1.142l-8.3366,5.6205c-0.051,0.0161-0.1618,0.0148-0.2127,0l-1.9371-1.2197V20.3548z    M31.241,42.6836L14.7447,39.225V17.5401l16.4963-3.193V42.6836z M43.0081,33.9247c0,1.1091-0.7099,1.5741-1.5081,1.5741h-8.9804   v-7.5329h0.001l1.7679,1.2144c0.2489,0.1829,0.549,0,0.549,0c-0.2991,0.1829,8.1705-5.4429,8.1705-5.4429V33.9247z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
